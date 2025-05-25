@@ -22,8 +22,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'namnguyenthanhwork', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-tailwind-shadcn-template', // Usually your repo name.
+  organizationName: 'izrofid', // Usually your GitHub org/user name.
+  projectName: 'eiweb', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -67,7 +67,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Docusaurus Tailwind Shadcn/ui',
+        title: 'Emerald Imperium',
         logo: {
           alt: 'Docusaurus Tailwind Shadcn/ui Logo',
           src: 'img/logo.svg'
@@ -77,15 +77,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial'
+            label: 'Documentation'
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            'href': 'https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template',
-            'position': 'right',
-            'className': 'header-github-link',
-            'aria-label': 'GitHub repository'
-          }
+            to: 'https://dex.emeraldimperium.net',
+            label: 'Dex',
+            position: 'left',
+          },
         ]
       },
       footer: {

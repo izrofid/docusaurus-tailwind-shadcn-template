@@ -1,31 +1,28 @@
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'QoL Galore',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and used to get your
-        website up and running quickly.
+        A host of QoL options so you can focus on the playing the game and spend less time grinding!
       </>
     )
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Enhanced Difficulty',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go ahead and move your
-        docs into the <code>docs</code> directory.
+        Inspired by Radical Red, enjoy a higher challenge which will test the limits of your Pokémon skills.
       </>
     )
   },
   {
-    title: 'Powered by React',
+    title: 'All 9 Gens',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can be extended while
-        reusing the same header and footer.
+        All 9 generations of Pokémon. All in one hack! What more could you want?
       </>
     )
   }
